@@ -1,0 +1,172 @@
+{
+    "actions": [
+        {
+            "COMMAND": null,
+            "RESPONSE": null
+        },
+        {
+            "COMMAND": "[1790874048.630][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND InitSession {\"capabilities\": {\"firstMatch\": [ {\"browserName\": \"chrome\",\"goog:chromeOptions\": {\"args\": [ \"--remote-allow-origins=*\" ],\"binary\": \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\"extensions\": [  ]},\"goog:loggingPrefs\": {\"browser\": \"ALL\",\"driver\": \"ALL\"}} ]}}",
+            "RESPONSE": "[1790874049.804][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE InitSession {\"capabilities\": {\"acceptInsecureCerts\": false,\"browserName\": \"chrome\",\"browserVersion\": \"154.0.8037.58\",\"chrome\": {\"chromedriverVersion\": \"154.0.8037.92 (334b65d254ccc35df4fca82706d1753227b01039-refs/branch-heads/8037@{#1589})\",\"userDataDir\": \"C:\\\\Users\\\\USER\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir4584_1874904887\"},\"fedcm:accounts\": true,\"goog:chromeOptions\": {\"debuggerAddress\": \"localhost:61488\"},\"goog:processID\": 16436,\"networkConnectionEnabled\": false,\"pageLoadStrategy\": \"normal\",\"platformName\": \"windows\",\"proxy\": {},\"setWindowRect\": true,\"strictFileInteractability\": false,\"timeouts\": {\"implicit\": 0,\"pageLoad\": 300000,\"script\": 30000},\"unhandledPromptBehavior\": \"dismiss and notify\",\"webauthn:extension:cmtgKey\": true,\"webauthn:extension:credBlob\": true,\"webauthn:extension:largeBlob\": true,\"webauthn:extension:minPinLength\": true,\"~~~\": \"...\"},\"sessionId\": \"6835cebb73d439922f3285ac5e41d82a\"}"
+        },
+        {
+            "COMMAND": "[1790874050.232][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND MaximizeWindow {}",
+            "RESPONSE": "[1790874050.307][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE MaximizeWindow {\"height\": 928,\"width\": 1456,\"x\": -7,\"y\": -7}"
+        },
+        {
+            "COMMAND": "[1790874050.338][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1790874059.088][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1790874059.301][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND GetUrl {}",
+            "RESPONSE": "[1790874059.307][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE GetUrl \"https://www.youtube.com/\""
+        },
+        {
+            "COMMAND": "[1790874059.360][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//a[contains(@href,'/about')]\"}",
+            "RESPONSE": "[1790874059.380][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.6BCC6A49153EF7B98562D3C3689853DC.e.18\"}"
+        },
+        {
+            "COMMAND": "[1790874059.447][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND IsElementEnabled {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.6BCC6A49153EF7B98562D3C3689853DC.e.18\"}",
+            "RESPONSE": "[1790874059.456][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE IsElementEnabled true"
+        },
+        {
+            "COMMAND": "[1790874059.467][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND ClickElement {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.6BCC6A49153EF7B98562D3C3689853DC.e.18\"}",
+            "RESPONSE": "[1790874063.083][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1790874063.101][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND FindElement {\"using\": \"css selector\",\"value\": \"body\"}",
+            "RESPONSE": "[1790874063.114][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.595718C771C27BAC40E2E24E24ECA761.e.164\"}"
+        },
+        {
+            "COMMAND": "[1790874063.140][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND GetElementText {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.595718C771C27BAC40E2E24E24ECA761.e.164\"}",
+            "RESPONSE": "[1790874063.215][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE GetElementText \"How YouTube Works\\nCreators\\nCulture & Trends\\nBlog\\nAbout YouTube\\nOur mission is to give everyone a voice and show them the world.\\n\\nWe believe that everyone deserves to have a voice, and that the worl...\""
+        },
+        {
+            "COMMAND": "[1790874063.233][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND Navigate {\"url\": \"https://www.youtube.com/movies\"}",
+            "RESPONSE": "[1790874065.339][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1790874065.454][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//*[contains(translate(normalize-space(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'top selling')]\"}",
+            "RESPONSE": "[1790874065.805][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.87916BCA5DBBB3A84EB57DECFD57A827.e.36\"}"
+        },
+        {
+            "COMMAND": "[1790874066.027][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND IsElementEnabled {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.87916BCA5DBBB3A84EB57DECFD57A827.e.36\"}",
+            "RESPONSE": "[1790874066.085][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE IsElementEnabled true"
+        },
+        {
+            "COMMAND": "[1790874066.109][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND ClickElement {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.87916BCA5DBBB3A84EB57DECFD57A827.e.36\"}",
+            "RESPONSE": "[1790874066.711][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE ClickElement ERROR element not interactable: element has zero size(Session info: chrome=154.0.8037.58)"
+        },
+        {
+            "COMMAND": "[1790874066.748][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND FindElement {\"using\": \"css selector\",\"value\": \"ytd-grid-movie-renderer\"}",
+            "RESPONSE": "[1790874066.799][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.87916BCA5DBBB3A84EB57DECFD57A827.e.40\"}"
+        },
+        {
+            "COMMAND": "[1790874066.806][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND FindElements {\"using\": \"css selector\",\"value\": \"ytd-grid-movie-renderer\"}",
+            "RESPONSE": "[1790874066.825][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE FindElements [ {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.87916BCA5DBBB3A84EB57DECFD57A827.e.40\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.87916BCA5DBBB3A84EB57DECFD57A827.e.41\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.87916BCA5DBBB3A84EB57DECFD57A827.e.42\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.87916BCA5DBBB3A84EB57DECFD57A827.e.43\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.87916BCA5DBBB3A84EB57DECFD57A827.e.44\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.87916BCA5DBBB3A84EB57DECFD57A827.e.45\"} ]"
+        },
+        {
+            "COMMAND": "[1790874066.897][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND GetElementText {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.87916BCA5DBBB3A84EB57DECFD57A827.e.45\"}",
+            "RESPONSE": "[1790874066.944][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE GetElementText \"2:19:41\\nWatch later\\nGangs Of Wasseypur II\\nIndian cinema \u2022 2012\\nBuy or rent\\nU/A\""
+        },
+        {
+            "COMMAND": "[1790874066.987][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND Navigate {\"url\": \"https://www.youtube.com/music\"}",
+            "RESPONSE": "[1790874069.271][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1790874070.852][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND FindElement {\"using\": \"css selector\",\"value\": \"ytd-rich-item-renderer\"}",
+            "RESPONSE": "[1790874071.112][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.65\"}"
+        },
+        {
+            "COMMAND": "[1790874071.124][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND FindElements {\"using\": \"css selector\",\"value\": \"ytd-rich-item-renderer\"}",
+            "RESPONSE": "[1790874071.315][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE FindElements [ {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.65\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.66\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.67\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.68\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.69\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.70\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.71\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.72\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.73\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.74\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.75\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.76\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.77\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.78\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.79\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.80\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.81\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.82\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.83\"}, \"...\" ]"
+        },
+        {
+            "COMMAND": "[1790874071.463][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND GetElementText {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.7F9BD7FB89A8D05CA39F71438B534703.e.103\"}",
+            "RESPONSE": "[1790874071.685][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE GetElementText \"60 songs\\n90s Tollywood Romance\\nYouTube Music\\nPlaylist\\nUpdated today\\nView full playlist\""
+        },
+        {
+            "COMMAND": "[1790874071.731][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND Navigate {\"url\": \"https://www.youtube.com/news\"}",
+            "RESPONSE": "[1790874074.490][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1790874076.244][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND FindElement {\"using\": \"css selector\",\"value\": \"ytd-rich-item-renderer\"}",
+            "RESPONSE": "[1790874076.408][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.143\"}"
+        },
+        {
+            "COMMAND": "[1790874076.415][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND FindElements {\"using\": \"css selector\",\"value\": \"ytd-rich-item-renderer\"}",
+            "RESPONSE": "[1790874076.514][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE FindElements [ {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.143\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.145\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.146\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.147\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.148\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.149\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.150\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.151\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.152\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.153\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.154\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.155\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.156\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.157\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.158\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.159\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.160\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.161\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.162\"}, \"...\" ]"
+        },
+        {
+            "COMMAND": "[1790874076.538][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND GetElementText {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.143\"}",
+            "RESPONSE": "[1790874076.675][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE GetElementText \"9:13\\n'True Hero...': World Salutes Indian flydubai Pilot Who Fended Off Attack & Saved Lives | Vantage\\nFirstpost\\n8.2K\\n23 min ago\""
+        },
+        {
+            "COMMAND": "[1790874076.682][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND FindChildElement {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.143\",\"using\": \"css selector\",\"value\": \"#video-title\"}",
+            "RESPONSE": "[1790874077.213][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.197\"}"
+        },
+        {
+            "COMMAND": "[1790874077.221][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND GetElementText {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.197\"}",
+            "RESPONSE": "[1790874077.272][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE GetElementText \"'True Hero...': World Salutes Indian flydubai Pilot Who Fended Off Attack & Saved Lives | Vantage\""
+        },
+        {
+            "COMMAND": "[1790874077.280][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND FindChildElements {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.143\",\"using\": \"css selector\",\"value\": \"#description\"}",
+            "RESPONSE": "[1790874077.364][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE FindChildElements [  ]"
+        },
+        {
+            "COMMAND": "[1790874077.368][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND GetElementText {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.143\"}",
+            "RESPONSE": "[1790874077.421][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE GetElementText \"9:13\\n'True Hero...': World Salutes Indian flydubai Pilot Who Fended Off Attack & Saved Lives | Vantage\\nFirstpost\\n8.2K\\n23 min ago\""
+        },
+        {
+            "COMMAND": "[1790874077.425][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND GetElementText {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.143\"}",
+            "RESPONSE": "[1790874077.478][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE GetElementText \"9:13\\n'True Hero...': World Salutes Indian flydubai Pilot Who Fended Off Attack & Saved Lives | Vantage\\nFirstpost\\n8.2K\\n23 min ago\""
+        },
+        {
+            "COMMAND": "[1790874077.511][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND GetElementText {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.145\"}",
+            "RESPONSE": "[1790874077.817][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE GetElementText \"25:10\\nFlyDubai Scare: Lone Wolf Or State-Sponsored? Was Iran Behind The Plot? Did Israel Have Prior Intel?\\nTimes Now\\n448\\n19 min ago\""
+        },
+        {
+            "COMMAND": "[1790874077.829][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND FindChildElement {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.145\",\"using\": \"css selector\",\"value\": \"#video-title\"}",
+            "RESPONSE": "[1790874077.963][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.198\"}"
+        },
+        {
+            "COMMAND": "[1790874077.969][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND GetElementText {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.198\"}",
+            "RESPONSE": "[1790874077.994][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE GetElementText \"FlyDubai Scare: Lone Wolf Or State-Sponsored? Was Iran Behind The Plot? Did Israel Have Prior Intel?\""
+        },
+        {
+            "COMMAND": "[1790874078.007][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND FindChildElements {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.145\",\"using\": \"css selector\",\"value\": \"#description\"}",
+            "RESPONSE": "[1790874078.026][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE FindChildElements [  ]"
+        },
+        {
+            "COMMAND": "[1790874078.030][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND GetElementText {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.145\"}",
+            "RESPONSE": "[1790874078.071][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE GetElementText \"25:10\\nFlyDubai Scare: Lone Wolf Or State-Sponsored? Was Iran Behind The Plot? Did Israel Have Prior Intel?\\nTimes Now\\n448\\n19 min ago\""
+        },
+        {
+            "COMMAND": "[1790874078.078][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND GetElementText {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.145\"}",
+            "RESPONSE": "[1790874078.115][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE GetElementText \"25:10\\nFlyDubai Scare: Lone Wolf Or State-Sponsored? Was Iran Behind The Plot? Did Israel Have Prior Intel?\\nTimes Now\\n448\\n19 min ago\""
+        },
+        {
+            "COMMAND": "[1790874078.120][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND GetElementText {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.146\"}",
+            "RESPONSE": "[1790874078.182][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE GetElementText \"3:34\\nWatch later\\nAdd to queue\\nFlydubai Cockpit Crisis Explained: Captain Stabbed, Co-Pilot Overpowered, Plane Diverted To Saudi\\nCNN-News18\\nCNN-News18\\n338\\n20 min ago\""
+        },
+        {
+            "COMMAND": "[1790874078.189][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND FindChildElement {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.146\",\"using\": \"css selector\",\"value\": \"#video-title\"}",
+            "RESPONSE": "[1790874078.201][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.199\"}"
+        },
+        {
+            "COMMAND": "[1790874078.299][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND GetElementText {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.199\"}",
+            "RESPONSE": "[1790874078.485][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE GetElementText \"Flydubai Cockpit Crisis Explained: Captain Stabbed, Co-Pilot Overpowered, Plane Diverted To Saudi\""
+        },
+        {
+            "COMMAND": "[1790874078.491][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND FindChildElements {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.146\",\"using\": \"css selector\",\"value\": \"#description\"}",
+            "RESPONSE": "[1790874078.505][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE FindChildElements [  ]"
+        },
+        {
+            "COMMAND": "[1790874078.518][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND GetElementText {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.146\"}",
+            "RESPONSE": "[1790874078.588][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE GetElementText \"3:34\\nWatch later\\nAdd to queue\\nFlydubai Cockpit Crisis Explained: Captain Stabbed, Co-Pilot Overpowered, Plane Diverted To Saudi\\nCNN-News18\\nCNN-News18\\n338\\n20 min ago\""
+        },
+        {
+            "COMMAND": "[1790874078.591][INFO]: [6835cebb73d439922f3285ac5e41d82a] COMMAND GetElementText {\"id\": \"f.F0CFC9B2C4921D317204A37D1A59E7A8.d.E15696FE438447C6AC08DED404149F0F.e.146\"}",
+            "RESPONSE": "[1790874078.660][INFO]: [6835cebb73d439922f3285ac5e41d82a] RESPONSE GetElementText \"3:34\\nWatch later\\nAdd to queue\\nFlydubai Cockpit Crisis Explained: Captain Stabbed, Co-Pilot Overpowered, Plane Diverted To Saudi\\nCNN-News18\\nCNN-News18\\n338\\n20 min ago\""
+        }
+    ]
+}
